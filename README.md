@@ -1,5 +1,5 @@
-Test repo multiple products from a browserify-based build
-==================================================================
+Trying to build multi-deliverables with a browserify-based build
+===================================================================================
 
 It's becoming commonplace for AngularJS and other single-page-application-style frameworks to bundle their JavaScript up in few different ways, even within a single project.
 
