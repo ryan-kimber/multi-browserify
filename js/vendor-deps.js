@@ -1,2 +1,2 @@
-var $ = require('jquery');
 var angular = require('angular');
+require('./fake-vendor-file');
