@@ -6,11 +6,8 @@ module.exports = angular.module('test.directive', [])
     .directive('testDirective', function(){
         return {
             restrict: 'EA',
-            scope: {
-                text: '@'
-            },
             controller: 'TestDirectiveController',
-            templateUrl: 'src/test-directive/test-directive.tpl.html',
+            template: '<div style="border: thin solid black; background-color: #AADDAA">This is the sample directive!</div>',
             replace: true,
             link: function(scope, element, attrs, ctrls){
 

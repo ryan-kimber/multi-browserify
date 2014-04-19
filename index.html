@@ -10,12 +10,13 @@
 </head>
     <body>
         <div ng-controller="testController">
-            <h1>Gulp'ing it up: Here's our variable: {{ variable }}</h1>
+            <h1>Building with Browserify &amp; Gulp</h1>
+            <h4>If things are working you should see 'Hello World' and not handlebars to the right: {{ variable }}</h4>
         </div>
         <!-- CDN Reference for AngularJS -->
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
         <!-- Generated files injected by Gulp build -->
-        <!-- gulp-inject:vendorjs:js --><!-- endinject -->
-        <!-- gulp-inject:appjs:js --><!-- endinject -->
+        <script src="./js/vendor-concat.js"></script>
+        <script src="./js/demo-app.js"></script>
     </body>
 </html>
