@@ -6,5 +6,5 @@ console.log("Angular: ", angular);
 console.log("Found ourNgModule: " + ourNgModule.name);
 angular.module('testApp', [ourNgModule.name])
     .controller('testController', function($scope){
-        $scope.variable = "hello world";
+        $scope.variable = "Hello World";
     });
