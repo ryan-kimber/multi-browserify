@@ -21,11 +21,13 @@ To build and run the project, clone this repo, then run the following commands:
 You'll then be able to access the application at http://localhost:4000
 
 What we'd expect, is a page that says:
-Build with Browserify & Gulp
-A working version will display 'Hello World' to the right (not handlebars): Hello World
-A working version will also display 'JQuery' to the right: JQuery
+    
+    Build with Browserify & Gulp
+    A working version will display 'Hello World' to the right (not handlebars): Hello World
+    A working version will also display 'JQuery' to the right: JQuery
 
 Instead, we get the following errors in the console:
 
- - Uncaught Error: Cannot find module 'angular'
- - Uncaught Error: Cannot find module 'jquery'
+    Uncaught Error: Cannot find module 'angular'
+    Uncaught Error: Cannot find module 'jquery'
+    ...and an angular instantiation error related to not finding a dependency.
