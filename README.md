@@ -26,7 +26,13 @@ What we'd expect, is a page that says:
     A working version will display 'Hello World' to the right (not handlebars): Hello World
     A working version will also display 'JQuery' to the right: JQuery
 
-Instead, we get the following errors in the console:
+Instead, we get the following:
+
+    Build with Browserify & Gulp
+    A working version will display 'Hello World' to the right (not handlebars): {{ variable }}
+    A working version will also display 'JQuery' to the right: 
+
+With the following errors in the console:
 
     Uncaught Error: Cannot find module 'angular'
     Uncaught Error: Cannot find module 'jquery'
